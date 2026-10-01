@@ -2,17 +2,15 @@
 
 Ejercicios prácticos de Kotlin organizados por temas.
 
-## 📚 Estructura de Temas
+## Estructura de Temas
 
-| Tema | Descripción
-
-| **01. Entorno y Primer Programa** | Configuración de IntelliJ IDEA, Gradle, Git y primer `Hello World`. \n
-| **02. Sintaxis, Tipos y Control de Flujo** | Inmutabilidad (`val` vs `var`), inferencia de tipos, `if` como expresión, `when` y bucles. 
-| **03. Null Safety** | Tipos nulables (`?`), operador Elvis (`?:`), Safe Call (`?.`), `?.let` y gestión de `NullPointerException`. 
-| **04. Funciones y Lambdas** | Funciones de una sola expresión, parámetros por defecto, funciones de orden superior y lambdas. 
-| **05. Colecciones** | Listas, conjuntos y mapas (`List`, `Set`, `Map`), mutabilidad e inmutabilidad, operaciones funcionales (`filter`, `map`, etc.). 
-| **06. POO: Clases y Data Class** | Clases, constructores primarios/secundarios, propiedades, visibilidad y `data class`. 
-| **07. Herencia, Interfaces y Sealed Classes** | Modificador `open`, polimorfismo, interfaces y modelado exhaustivo con `sealed class`. 
+* **[01-entorno-y-primer-programa.md](01-entorno-y-primer-programa.md)**
+* **[02-sintaxis-tipos-y-control-de-flujo.md](02-sintaxis-tipos-y-control-de-flujo.md)**
+* **[03-null-safety.md](03-null-safety.md)**
+* **[04-funciones-y-lambdas.md](04-funciones-y-lambdas.md)**
+* **[05-colecciones.md](05-colecciones.md)**
+* **[06-poo-clases-y-data-class.md](06-poo-clases-y-data-class.md)**
+* **[07-herencia-interfaces-sealed.md](07-herencia-interfaces-sealed.md)**
 
 ## Tecnologías y Herramientas
 
