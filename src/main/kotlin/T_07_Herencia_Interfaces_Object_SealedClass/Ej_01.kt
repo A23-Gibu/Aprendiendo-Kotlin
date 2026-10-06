@@ -7,8 +7,8 @@ fun main() {
 
 }
 
-open class Empleado(nombre: String,
-                    sueldoBase: Double) {
+open class Empleado(val nombre: String,
+                    val sueldoBase: Double) {
     open fun calcularSueldo(){
     }
 }
@@ -16,12 +16,13 @@ open class Empleado(nombre: String,
 class Comercial(nombre: String, sueldoBase: Double, val comision: Double
     ) : Empleado(nombre, sueldoBase){
     override fun calcularSueldo(){
-        print("1500")
+        println("Tu sueldo es: ${sueldoBase + comision}")
     }
 }
 
-class Tecnico() : Empleado(){
+class Tecnico(nombre: String,
+              sueldoBase: Double, val plusGuardia: Double) : Empleado(nombre, sueldoBase){
     override fun calcularSueldo(){
-        print("2000")
+        println("Tu sueldo es: ${sueldoBase + plusGuardia}")
     }
 }
